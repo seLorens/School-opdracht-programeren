@@ -48,8 +48,14 @@ db.close()
 # verzamel alle benodigde gegevens in een dictionary
 dagtakenlijst = {
     "personeelsgegevens" : {
-        "naam": personeelslid['naam'] # voorbeeld van hoe je bij een eigenschap komt
-        # STAP 1: vul aan met andere benodigde eigenschappen
+        "naam": personeelslid['naam'], # voorbeeld van hoe je bij een eigenschap komt
+        "werktijd": personeelslid['werktijd'],
+        "beroepstype": personeelslid['beroepstype'],
+        "bevoegdheid": personeelslid['bevoegdheid'],
+        "specialist_in_attracties": personeelslid['specialist_in_attracties'],
+        "pauze_opsplitsen": personeelslid['pauze_opsplitsen'],
+        "leeftijd": personeelslid['leeftijd'],
+        "verlaagde_fysieke_belasting": personeelslid['verlaagde_fysieke_belasting']
     },
     "weergegevens" : {
         # STAP 4: vul aan met weergegevens (DP9)
