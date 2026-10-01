@@ -1,0 +1,46 @@
+import random
+# options = {
+#     "steen": 1,
+#     "papier": 2,
+#     "schaar": 3
+#     }
+
+options = [
+    1,2, 3
+]
+userInput = int(input("steen, papier of schaar? "))
+
+
+def gameStats(userInput):
+    keuzebot = random.choice(options)
+    print(keuzebot)
+    if (userInput == keuzebot):
+        print("draw")
+    elif ((userInput == 1 and keuzebot == 2) or (userInput == 2 and keuzebot == 3) or (userInput == 3 and keuzebot == 1)):
+        print("You lose")
+    elif ((userInput == 1 and keuzebot == 3) or (userInput == 2 and keuzebot == 1) or (userInput == 3 and keuzebot == 2)):
+        print("You win")
+
+gameStats(userInput)
+    
+# if userInput == 1 and keuzebot == 1:
+#     print("gelijkspel")
+# elif userInput == 1 and keuzebot == 2:
+#     print("you lose")
+# elif userInput == 1 and keuzebot == 3:
+#     print("You won")
+    
+# elif userInput == 2 and keuzebot == 1:
+#     print("You won")
+# elif userInput == 2 and keuzebot == 2:
+#     print("gelijkspel")
+# elif userInput == 2 and keuzebot == 3:
+#     print("you lose")
+# elif userInput == 3 and keuzebot == 1:
+#     print("you lose")
+# elif userInput == 3 and keuzebot == 2:
+#     print("you win")
+# elif userInput == 3 and keuzebot == 3:
+#     print("gelijkspel")
+
+# print(keuzebot)

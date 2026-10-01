@@ -1,0 +1,9 @@
+username = input("username: ")
+password = input("password: ")
+
+if username == "piet" and password == "Welcome01!":
+    print("Error username of wachtwoord is incorrect")
+elif username == "jan" and password == "Welcome01!":
+    print("Error username of wachtwoord is incorrect")
+elif username == "Admin" and password == "Welcome01!":
+    print ("U bent succesvol ingelogd")

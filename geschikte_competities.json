@@ -1,0 +1,14 @@
+{
+    "sportergegevens": {
+        "naam": "Amina El-Karim",
+        "leeftijd": 10,
+        "dagen_niet_beschikbaar": "Zondag,Woensdag,Vrijdag",
+        "vaardigheden": "Snelheid,Kracht",
+        "max_inschrijfgeld": 25,
+        "conditie": "Hoog",
+        "voorkeurssporten": "Tennis,Badminton",
+        "minst_favoriete_sport": "Turnen",
+        "maximale_aantal_spelers": 6
+    },
+    "geschikte_competities": false
+}

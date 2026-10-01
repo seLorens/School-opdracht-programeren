@@ -1,0 +1,9 @@
+geboortejaar = input("wat is uw geboortejaar?\n")
+naam = input("Wat is uw naam?\n")
+Woonplaats = input("Wat is uw woonplaats?\n")
+
+jaartal = 2026
+leeftijd = 2026 - int(geboortejaar)
+print(f"\n{naam}")
+print(leeftijd)
+print(Woonplaats)

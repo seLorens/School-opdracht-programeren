@@ -1,0 +1,15 @@
+dagNummer = int(input("welke dag nummer is het van deze week? "))
+uur = int(input("hoe laat is het? "))
+
+if dagNummer > 0 or dagNummer < 6:
+    print("het is doordeweeks")
+    if uur <= 18:
+        print("kagel staat op 16 graden")
+    else:
+        print("kagel staat op 19 graden")
+elif dagNummer >5 or dagNummer <8:
+    print("het is weekend")
+    if uur <= 12:
+        print("kagel staat op 16 graden")
+    else:
+        print("kagel staat op 19 graden")
